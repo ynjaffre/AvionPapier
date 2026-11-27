@@ -107,17 +107,21 @@
     <line x1="150" y1="525" x2="188" y2="470" stroke="#F4A100" stroke-width="12" stroke-linecap="round"/>
     <line x1="150" y1="525" x2="188" y2="470" stroke="#FFE135" stroke-width="7" stroke-linecap="round"/>
 
-    <!-- Perso droite (orange, flamme) -->
-    <path d="M715 545 Q760 540 765 495" fill="none" stroke="#FF8A3D" stroke-width="14" stroke-linecap="round"/>
-    <path d="M765 495 Q745 470 770 445 Q780 470 790 480 Q790 500 765 495Z" fill="#FFC24B" stroke="#E53935" stroke-width="3"/>
-    <ellipse cx="680" cy="545" rx="38" ry="46" fill="#FF8A3D" stroke="#D84315" stroke-width="3"/>
-    <ellipse cx="680" cy="555" rx="22" ry="32" fill="#FFE0B2"/>
-    <circle cx="680" cy="455" r="38" fill="#FF8A3D" stroke="#D84315" stroke-width="3"/>
-    <circle cx="666" cy="448" r="6" fill="#fff" stroke="#000" stroke-width="1.5"/><circle cx="664" cy="449" r="3" fill="#000"/>
-    <circle cx="696" cy="448" r="6" fill="#fff" stroke="#000" stroke-width="1.5"/><circle cx="694" cy="449" r="3" fill="#000"/>
-    <path d="M668 468 Q679 476 690 468" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="650" y1="525" x2="612" y2="470" stroke="#D84315" stroke-width="12" stroke-linecap="round"/>
-    <line x1="650" y1="525" x2="612" y2="470" stroke="#FF8A3D" stroke-width="7" stroke-linecap="round"/>
+    <!-- Perso droite (oiseau, crête rouge et jaune) -->
+    <polygon points="712,540 775,505 770,530 780,545 765,552 772,570 712,562" fill="#E53935" stroke="#9B1C1C" stroke-width="3" stroke-linejoin="round"/>
+    <polygon points="725,548 770,535 764,552 725,556" fill="#FFC24B"/>
+    <ellipse cx="680" cy="545" rx="38" ry="46" fill="#B5803F" stroke="#6B4423" stroke-width="3"/>
+    <ellipse cx="672" cy="558" rx="22" ry="32" fill="#F5E1B8"/>
+    <path d="M690 420 Q720 395 745 408 Q722 410 712 428 Q745 425 758 440 Q725 440 705 450Z" fill="#E53935" stroke="#9B1C1C" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M692 424 Q712 410 728 414 Q712 420 706 432Z" fill="#FFC24B"/>
+    <circle cx="680" cy="455" r="36" fill="#B5803F" stroke="#6B4423" stroke-width="3"/>
+    <path d="M644 452 Q662 442 690 446 L690 462 Q662 470 650 464Z" fill="#F5E1B8"/>
+    <polygon points="646,452 618,466 648,470" fill="#FFB300" stroke="#B26A00" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="668" cy="454" r="7" fill="#fff" stroke="#000" stroke-width="2"/><circle cx="666" cy="455" r="3.5" fill="#000"/>
+    <path d="M655 444 L690 440" stroke="#3B2412" stroke-width="3" stroke-linecap="round"/>
+    <line x1="650" y1="525" x2="612" y2="470" stroke="#6B4423" stroke-width="14" stroke-linecap="round"/>
+    <line x1="650" y1="525" x2="612" y2="470" stroke="#B5803F" stroke-width="9" stroke-linecap="round"/>
+    <line x1="622" y1="485" x2="612" y2="470" stroke="#F5E1B8" stroke-width="9" stroke-linecap="round"/>
   </g>
 
   <!-- Bandeau date -->
