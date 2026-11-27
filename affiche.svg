@@ -104,6 +104,19 @@
     <circle cx="106" cy="448" r="5" fill="#000"/><circle cx="136" cy="448" r="5" fill="#000"/>
     <circle cx="92" cy="465" r="8" fill="#F44336"/><circle cx="148" cy="465" r="8" fill="#F44336"/>
     <path d="M110 466 Q121 474 132 466" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Collier de boules de Noël -->
+    <path d="M88 484 Q120 512 152 484" fill="none" stroke="#2E7D32" stroke-width="3"/>
+    <g stroke="#7A1010" stroke-width="1.5">
+      <circle cx="94.4" cy="489" r="6" fill="#E53935"/>
+      <circle cx="107.2" cy="496" r="7" fill="#2E9E4F" stroke="#14532D"/>
+      <circle cx="120" cy="499" r="8" fill="#FFC107" stroke="#B26A00"/>
+      <circle cx="132.8" cy="496" r="7" fill="#2E9E4F" stroke="#14532D"/>
+      <circle cx="145.6" cy="489" r="6" fill="#E53935"/>
+    </g>
+    <g fill="#fff" opacity="0.8">
+      <circle cx="92.5" cy="487" r="1.6"/><circle cx="105" cy="493.5" r="1.8"/><circle cx="117.5" cy="496.5" r="2"/>
+      <circle cx="130.5" cy="493.5" r="1.8"/><circle cx="143.7" cy="487" r="1.6"/>
+    </g>
     <line x1="150" y1="525" x2="188" y2="470" stroke="#F4A100" stroke-width="12" stroke-linecap="round"/>
     <line x1="150" y1="525" x2="188" y2="470" stroke="#FFE135" stroke-width="7" stroke-linecap="round"/>
 
