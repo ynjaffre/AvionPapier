@@ -139,18 +139,19 @@
   <text x="400" y="955" font-size="25" text-anchor="middle" fill="#0B2E5C"><tspan font-weight="bold">Rendez-vous à 13h</tspan> dans le grand hall de S1 (avion / hélico)</text>
 
   <!-- Règles -->
-  <rect x="40" y="992" width="720" height="140" rx="12" fill="#fff"/>
-  <text x="68" y="1028" font-size="20" font-weight="bold" fill="#FF9F1C" letter-spacing="4">RÈGLES</text>
+  <rect x="40" y="990" width="720" height="150" rx="12" fill="#fff"/>
+  <text x="68" y="1017" font-size="19" font-weight="bold" fill="#FF9F1C" letter-spacing="4">RÈGLES</text>
   <g fill="#0B2E5C">
-    <circle cx="78" cy="1056" r="12"/><circle cx="78" cy="1086" r="12"/><circle cx="78" cy="1116" r="12"/>
+    <circle cx="78" cy="1041" r="11"/><circle cx="78" cy="1069" r="11"/><circle cx="78" cy="1097" r="11"/><circle cx="78" cy="1125" r="11"/>
   </g>
-  <g font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">
-    <text x="78" y="1061">1</text><text x="78" y="1091">2</text><text x="78" y="1121">3</text>
+  <g font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">
+    <text x="78" y="1046">1</text><text x="78" y="1074">2</text><text x="78" y="1102">3</text><text x="78" y="1130">4</text>
   </g>
-  <g font-size="21" fill="#0B2E5C">
-    <text x="102" y="1063">Avion en papier uniquement</text>
-    <text x="102" y="1093">Décoration non papier : <tspan font-weight="bold" fill="#E8590C">+5% sur la distance</tspan></text>
-    <text x="102" y="1123">Lancer et envol depuis la porte du diffuseur</text>
+  <g font-size="20" fill="#0B2E5C">
+    <text x="102" y="1047">Avion en papier uniquement</text>
+    <text x="102" y="1075">Déco libre (dessins, autocollants…) : <tspan font-weight="bold" fill="#E8590C">+5% sur la distance</tspan></text>
+    <text x="102" y="1103">Auto-validation : tu déclares ta déco toi-même, fair-play</text>
+    <text x="102" y="1131">Lancer et envol depuis la porte du diffuseur</text>
   </g>
 
   <!-- Pied -->
