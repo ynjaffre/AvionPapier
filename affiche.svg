@@ -1,0 +1,161 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond dégradé -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="1200" fill="url(#bgGradient)"/>
+  
+  <!-- Soleil -->
+  <circle cx="700" cy="150" r="80" fill="url(#sunGradient)" opacity="0.8"/>
+  
+  <!-- Nuages -->
+  <ellipse cx="150" cy="120" rx="60" ry="40" fill="white" opacity="0.7"/>
+  <ellipse cx="200" cy="130" rx="50" ry="35" fill="white" opacity="0.7"/>
+  <ellipse cx="100" cy="140" rx="45" ry="30" fill="white" opacity="0.7"/>
+  
+  <!-- Titre principal -->
+  <text x="400" y="220" font-size="72" font-weight="bold" text-anchor="middle" fill="#FF1493" font-family="Arial, sans-serif" stroke="#8B0000" stroke-width="2">
+    🏆 GRAND CONCOURS 🏆
+  </text>
+  
+  <text x="400" y="310" font-size="64" font-weight="bold" text-anchor="middle" fill="#1E90FF" font-family="Arial, sans-serif">
+    D'AVIONS EN PAPIER
+  </text>
+  
+  <!-- Avion en papier simple -->
+  <g transform="translate(100, 350)">
+    <polygon points="30,0 60,10 30,20 35,10" fill="#E8E8E8" stroke="#333" stroke-width="2"/>
+    <line x1="30" y1="10" x2="20" y2="10" stroke="#333" stroke-width="2"/>
+    <line x1="30" y1="10" x2="30" y2="25" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Avion en papier simple (droite) -->
+  <g transform="translate(680, 320) scale(-1, 1)">
+    <polygon points="30,0 60,10 30,20 35,10" fill="#E8E8E8" stroke="#333" stroke-width="2"/>
+    <line x1="30" y1="10" x2="20" y2="10" stroke="#333" stroke-width="2"/>
+    <line x1="30" y1="10" x2="30" y2="25" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Section Pokémons lançant des avions -->
+  <g id="pokemon-section">
+    <!-- Pikachu (gauche) -->
+    <circle cx="150" cy="480" r="35" fill="#FFEB3B"/>
+    <circle cx="130" cy="455" r="12" fill="#FFEB3B"/>
+    <circle cx="170" cy="455" r="12" fill="#FFEB3B"/>
+    <circle cx="130" cy="455" r="6" fill="#000"/>
+    <circle cx="170" cy="455" r="6" fill="#000"/>
+    <line x1="135" y1="485" x2="125" y2="510" stroke="#FFEB3B" stroke-width="8"/>
+    <line x1="165" y1="485" x2="175" y2="510" stroke="#FFEB3B" stroke-width="8"/>
+    <!-- Avion lancé par Pikachu -->
+    <g transform="translate(200, 420)">
+      <polygon points="0,0 25,5 0,10 5,5" fill="#FF6B6B" stroke="#333" stroke-width="1.5"/>
+      <line x1="0" y1="5" x2="-8" y2="5" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <text x="150" y="540" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Pikachu</text>
+  </g>
+  
+  <!-- Charizard (centre) -->
+  <circle cx="400" cy="480" r="40" fill="#FF7F50"/>
+  <circle cx="400" cy="440" r="20" fill="#FF7F50"/>
+  <circle cx="390" cy="430" r="6" fill="#000"/>
+  <line x1="395" y1="520" x2="380" y2="545" stroke="#FF7F50" stroke-width="10"/>
+  <line x1="405" y1="520" x2="420" y2="545" stroke="#FF7F50" stroke-width="10"/>
+  <!-- Avion lancé par Charizard -->
+  <g transform="translate(450, 400)">
+    <polygon points="0,0 30,8 0,16 6,8" fill="#4CAF50" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="8" x2="-10" y2="8" stroke="#333" stroke-width="2"/>
+  </g>
+  <text x="400" y="570" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Charizard</text>
+  
+  <!-- Dragonite (droite) -->
+  <circle cx="650" cy="480" r="38" fill="#8B4513"/>
+  <circle cx="650" cy="435" r="22" fill="#8B4513"/>
+  <circle cx="638" cy="423" r="6" fill="#000"/>
+  <line x1="643" y1="515" x2="625" y2="545" stroke="#8B4513" stroke-width="10"/>
+  <line x1="657" y1="515" x2="675" y2="545" stroke="#8B4513" stroke-width="10"/>
+  <!-- Avion lancé par Dragonite -->
+  <g transform="translate(580, 420)">
+    <polygon points="0,0 25,6 0,12 5,6" fill="#FFB6C1" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="6" x2="-8" y2="6" stroke="#333" stroke-width="1.5"/>
+  </g>
+  <text x="650" y="570" font-size="16" font-weight="bold" text-anchor="middle" fill="#000">Dragonite</text>
+  
+  <!-- Ventilateurs en haut (qui éclatent les avions) -->
+  <!-- Ventilo gauche -->
+  <circle cx="200" cy="250" r="30" fill="#808080"/>
+  <circle cx="200" cy="250" r="25" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="225" x2="200" y2="275" stroke="#333" stroke-width="3"/>
+  <line x1="175" y1="250" x2="225" y2="250" stroke="#333" stroke-width="3"/>
+  <line x1="182" y1="232" x2="218" y2="268" stroke="#333" stroke-width="3"/>
+  <line x1="218" y1="232" x2="182" y2="268" stroke="#333" stroke-width="3"/>
+  <circle cx="200" cy="250" r="8" fill="#333"/>
+  
+  <!-- Ventilo droite -->
+  <circle cx="600" cy="250" r="30" fill="#808080"/>
+  <circle cx="600" cy="250" r="25" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="600" y1="225" x2="600" y2="275" stroke="#333" stroke-width="3"/>
+  <line x1="575" y1="250" x2="625" y2="250" stroke="#333" stroke-width="3"/>
+  <line x1="582" y1="232" x2="618" y2="268" stroke="#333" stroke-width="3"/>
+  <line x1="618" y1="232" x2="582" y2="268" stroke="#333" stroke-width="3"/>
+  <circle cx="600" cy="250" r="8" fill="#333"/>
+  
+  <!-- Effets d'explosion -->
+  <text x="200" y="260" font-size="20" text-anchor="middle" fill="#FF4500">💥</text>
+  <text x="600" y="260" font-size="20" text-anchor="middle" fill="#FF4500">💥</text>
+  
+  <!-- INFOS BOX 1 - Date et Lieu -->
+  <rect x="50" y="630" width="700" height="80" rx="15" fill="#FFD700" stroke="#FF8C00" stroke-width="3"/>
+  <text x="400" y="665" font-size="28" font-weight="bold" text-anchor="middle" fill="#000" font-family="Arial, sans-serif">
+    📅 17 DÉCEMBRE - 13h15
+  </text>
+  <text x="400" y="695" font-size="24" text-anchor="middle" fill="#8B0000" font-family="Arial, sans-serif">
+    Diffuseur de S1
+  </text>
+  
+  <!-- INFOS BOX 2 - Point de rendez-vous -->
+  <rect x="50" y="730" width="700" height="80" rx="15" fill="#98FB98" stroke="#228B22" stroke-width="3"/>
+  <text x="400" y="765" font-size="26" font-weight="bold" text-anchor="middle" fill="#000" font-family="Arial, sans-serif">
+    📍 RENDEZ-VOUS À 13h00
+  </text>
+  <text x="400" y="795" font-size="22" text-anchor="middle" fill="#006400" font-family="Arial, sans-serif">
+    Grand Hall de S1 (Avion/Hélico)
+  </text>
+  
+  <!-- RÉGLES BOX -->
+  <rect x="50" y="830" width="700" height="310" rx="15" fill="#E6E6FA" stroke="#4B0082" stroke-width="3"/>
+  <text x="400" y="870" font-size="32" font-weight="bold" text-anchor="middle" fill="#4B0082" font-family="Arial, sans-serif">
+    ⚡ RÈGLES DU JEU ⚡
+  </text>
+  
+  <text x="80" y="920" font-size="20" fill="#000" font-family="Arial, sans-serif">
+    ✈️ Avion OBLIGATOIREMENT en papier
+  </text>
+  
+  <text x="80" y="960" font-size="20" fill="#000" font-family="Arial, sans-serif">
+    🎨 Ajouts d'éléments de décoration (non-papier)
+  </text>
+  <text x="100" y="990" font-size="18" fill="#FF1493" font-weight="bold" font-family="Arial, sans-serif">
+    = +5% sur la distance ! 🎁
+  </text>
+  
+  <text x="80" y="1035" font-size="20" fill="#000" font-family="Arial, sans-serif">
+    🚀 Lancer et envol depuis la PORTE du diffuseur
+  </text>
+  
+  <text x="80" y="1080" font-size="22" font-weight="bold" fill="#FF0000" font-family="Arial, sans-serif">
+    🏆 LE PLUS LOIN = LE PLUS GROS LOT ! 🏆
+  </text>
+  
+  <!-- Pied de page - Footer -->
+  <text x="400" y="1180" font-size="20" font-weight="bold" text-anchor="middle" fill="#1E90FF" font-family="Arial, sans-serif">
+    QUI SERA LE CHAMPION ? 🥇
+  </text>
+</svg>
