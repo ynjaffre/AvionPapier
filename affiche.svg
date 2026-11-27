@@ -142,17 +142,17 @@
   <rect x="40" y="990" width="720" height="150" rx="12" fill="#fff"/>
   <text x="68" y="1017" font-size="19" font-weight="bold" fill="#FF9F1C" letter-spacing="4">RÈGLES</text>
   <g fill="#0B2E5C">
-    <circle cx="78" cy="1041" r="11"/><circle cx="78" cy="1069" r="11"/><circle cx="78" cy="1097" r="11"/><circle cx="78" cy="1125" r="11"/>
+    <circle cx="78" cy="1041" r="11"/><circle cx="78" cy="1069" r="11"/><circle cx="78" cy="1121" r="11"/>
   </g>
   <g font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">
-    <text x="78" y="1046">1</text><text x="78" y="1074">2</text><text x="78" y="1102">3</text><text x="78" y="1130">4</text>
+    <text x="78" y="1046">1</text><text x="78" y="1074">2</text><text x="78" y="1126">3</text>
   </g>
   <g font-size="20" fill="#0B2E5C">
     <text x="102" y="1047">Avion en papier uniquement</text>
-    <text x="102" y="1075">Déco libre (dessins, autocollants…) : <tspan font-weight="bold" fill="#E8590C">+5% sur la distance</tspan></text>
-    <text x="102" y="1103">Auto-validation : tu déclares ta déco toi-même, fair-play</text>
-    <text x="102" y="1131">Lancer et envol depuis la porte du diffuseur</text>
+    <text x="102" y="1075">Déco libre (dessins, autocollants…) : <tspan font-weight="bold" fill="#E8590C">+3% sur la distance</tspan></text>
+    <text x="102" y="1127">Lancer et envol depuis la porte du diffuseur</text>
   </g>
+  <text x="102" y="1100" font-size="16" fill="#0B2E5C">Si déco « Noël » : <tspan font-weight="bold" fill="#E8590C">+5%</tspan> <tspan font-style="italic">(offre non cumulable et selon les conditions générales de vol)</tspan></text>
 
   <!-- Pied -->
   <rect x="0" y="1146" width="800" height="54" fill="#FF9F1C"/>
