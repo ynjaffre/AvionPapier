@@ -60,17 +60,22 @@
     <text x="400" y="355" font-size="112" letter-spacing="-2" fill="#FFD166">EN PAPIER</text>
   </g>
 
-  <!-- Soleil -->
-  <circle cx="690" cy="470" r="110" fill="url(#glow)"/>
-  <g transform="translate(690,470)">
-    <g stroke="#FFC24B" stroke-width="5" stroke-linecap="round">
-      <line x1="0" y1="-62" x2="0" y2="-82"/><line x1="0" y1="62" x2="0" y2="82"/>
-      <line x1="-62" y1="0" x2="-82" y2="0"/><line x1="62" y1="0" x2="82" y2="0"/>
-      <line x1="44" y1="44" x2="58" y2="58"/><line x1="-44" y1="-44" x2="-58" y2="-58"/>
-      <line x1="44" y1="-44" x2="58" y2="-58"/><line x1="-44" y1="44" x2="-58" y2="58"/>
-    </g>
-    <circle r="46" fill="url(#sun)"/>
+  <!-- Caméra strioscopique -->
+  <polygon points="604,436 330,470 330,520 604,486" fill="#fff" opacity="0.10"/>
+  <g stroke="#0B1F3A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <line x1="690" y1="470" x2="662" y2="512" stroke-width="5" stroke="#8FA3B5"/>
+    <line x1="690" y1="470" x2="718" y2="512" stroke-width="5" stroke="#8FA3B5"/>
+    <line x1="690" y1="470" x2="690" y2="516" stroke-width="5" stroke="#8FA3B5"/>
+    <rect x="650" y="412" width="92" height="58" rx="8" fill="#2B3A4D"/>
+    <rect x="662" y="402" width="30" height="12" rx="3" fill="#2B3A4D"/>
+    <rect x="620" y="426" width="34" height="32" rx="4" fill="#1C2836"/>
+    <rect x="598" y="420" width="26" height="44" rx="5" fill="#1C2836"/>
+    <ellipse cx="598" cy="442" rx="9" ry="22" fill="#4FA3E0"/>
   </g>
+  <ellipse cx="595" cy="434" rx="3" ry="9" fill="#fff" opacity="0.8"/>
+  <rect x="716" y="422" width="14" height="9" rx="2" fill="#FF9F1C"/>
+  <circle cx="706" cy="440" r="8" fill="#16202D" stroke="#0B1F3A" stroke-width="2"/>
+  <circle cx="706" cy="440" r="3" fill="#4FA3E0"/>
 
   <!-- Sol enneigé -->
   <path d="M0 735 Q200 690 400 725 Q600 690 800 735 L800 790 L0 790Z" fill="#fff"/>
